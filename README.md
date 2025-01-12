@@ -11,3 +11,44 @@ de um lado for sempre menor do que a soma dos outros dois (o programa deve exibi
 mensagem de erro caso essa propriedade não seja satisfeita) 
 Por fim compartilhe o link do código fonte no github ou gitlab e documente o que é 
 preciso e como realizar a sua execução.</p>  
+
+# Documentação para Execução de Testes de Automação
+
+## Repositório
+
+Você pode clonar o repositório usando o seguinte link:
+https://github.com/SamirMamede/fpf-tech-automation-challenge.git
+
+   ```bash
+   git clone https://github.com/SamirMamede/fpf-tech-automation-challenge.git
+   ```
+
+
+## Pré-requisitos
+
+Antes de executar os testes, você precisa ter o seguinte instalado em sua máquina:
+
+1. **Python**: Certifique-se de que você tenha o Python 3.x instalado. Você pode baixar o Python em [python.org](https://www.python.org/downloads/).
+
+2. **Pip**: O `pip` é o gerenciador de pacotes do Python e geralmente é instalado automaticamente com o Python. Você pode verificar se o `pip` está instalado executando o seguinte comando no terminal:
+
+   ```bash
+   pip --version
+   ```
+
+# Instalação de Dependências
+Após clonar o repositório, navegue até o diretório do projeto e instale as dependências necessárias usando o pip. Execute os seguintes comandos no terminal:
+
+   ```bash
+    # Navegue até o diretório do projeto
+    cd fpf-tech-automation-challenge
+
+    # Instale as dependências
+    pip install -r requirements.txt
+  ```
+# Execução dos Testes
+Para executar os testes, você pode usar o pytest. Execute o seguinte comando no terminal:
+
+   ```bash
+    pytest
+  ```
