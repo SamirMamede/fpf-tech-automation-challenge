@@ -46,6 +46,50 @@ Após clonar o repositório, navegue até o diretório do projeto e instale as d
     # Instale as dependências
     pip install -r requirements.txt
   ```
+# Casos de Teste Implementados
+
+## Testes Funcionais
+
+### 1. Teste: Identificar Triângulo Equilátero
+- **Descrição**: Verifica se o programa identifica corretamente um triângulo equilátero quando todos os lados são iguais.
+- **Entradas**: 10, 10, 10
+- **Resultado Esperado**: "Equilátero"
+
+### 2. Teste: Identificar Triângulo Isósceles
+- **Descrição**: Verifica se o programa identifica corretamente um triângulo isósceles quando dois lados são iguais.
+- **Entradas**: 10, 10, 5
+- **Resultado Esperado**: "Isósceles"
+
+### 3. Teste: Identificar Triângulo Escaleno
+- **Descrição**: Verifica se o programa identifica corretamente um triângulo escaleno quando todos os lados são diferentes.
+- **Entradas**: 10, 8, 5
+- **Resultado Esperado**: "Escaleno"
+
+### 4. Teste: Identificar Triângulo com Letras
+- **Descrição**: Verifica se o programa exibe uma mensagem de erro ao receber entradas não numéricas.
+- **Entradas**: "a", "b", "c"
+- **Resultado Esperado**: Uma mensagem de erro é exibida.
+
+### 5. Teste: Identificar Triângulo com Espaços
+- **Descrição**: Verifica se o programa exibe uma mensagem de erro ao receber entradas apenas com espaços.
+- **Entradas**: "   ", "   ", "   "
+- **Resultado Esperado**: Uma mensagem de erro é exibida.
+
+### 6. Teste: Identificar Triângulo Degenerado
+- **Descrição**: Verifica se o programa exibe uma mensagem de erro quando os lados não formam um triângulo (quando a soma de dois lados é menor ou igual ao comprimento do terceiro lado).
+- **Entradas**: 5, 5, 10
+- **Resultado Esperado**: Uma mensagem de erro é exibida.
+
+### 7. Teste: Identificar Triângulo com Lado Zero
+- **Descrição**: Verifica se o programa exibe uma mensagem de erro ao receber um lado igual a zero.
+- **Entradas**: 0, 5, 5
+- **Resultado Esperado**: Uma mensagem de erro é exibida.
+
+### 8. Teste: Identificar Triângulo com Lado Negativo
+- **Descrição**: Verifica se o programa exibe uma mensagem de erro ao receber um lado negativo.
+- **Entradas**: -5, 5, 5
+- **Resultado Esperado**: Uma mensagem de erro é exibida.
+  
 # Execução dos Testes
 Para executar os testes, você pode usar o pytest. Execute o seguinte comando no terminal:
 
