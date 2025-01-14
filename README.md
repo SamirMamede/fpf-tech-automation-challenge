@@ -48,8 +48,6 @@ Após clonar o repositório, navegue até o diretório do projeto e instale as d
   ```
 # Casos de Teste Implementados
 
-## Testes Funcionais
-
 ### 1. Teste: Identificar Triângulo Equilátero
 - **Descrição**: Verifica se o programa identifica corretamente um triângulo equilátero quando todos os lados são iguais.
 - **Entradas**: 10, 10, 10
